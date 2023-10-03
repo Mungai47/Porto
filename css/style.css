@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main_section{
+    background-color: #f0edec;
+}
+
+.navigation_items {
+    transition: text-decoration 0.3s ease, font-weight 0.3s ease;
+}
+
+/* CSS code to underline nav-item text on hover */
+.navigation_items:hover {
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+.main_content{
+    background-color: #f0edec;
+    padding: 45% 5%;
+    position: relative;
+}
+.container2{
+    padding: 10% 5%;
+}
+
+.container4{
+    background-color: #1c1c1c ;
+}
+
+.container4 div{
+    padding: 10% 7%;
+}
+
+.container5 div{
+    padding: 10% 8%;
+}
+
+hr{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+h1{
+    font-size:3rem;
+    font-weight: bold;
+    line-height: 0.8;
+}
+  
+  /* Adjust font size for screens wider than 768px */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 5rem; /* Larger font size for larger screens */
+      font-weight: bold;
+      line-height: 1;
+    }
+    .main_content{
+        padding: 10% 5%;
+    }
+  }
+  
+  /* Adjust font size for screens wider than 1200px */
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 6rem; /* Even larger font size for very large screens */
+      font-weight: bold;
+      line-height: 1.2;
+    }
+    .main_content{
+        padding: 10% 5%;
+    }
+  }
+
+  .hollow-text {
+    color: transparent; /* Set the text color to transparent */
+    -webkit-text-stroke: 2px #000; /* Set the text stroke thickness and color (for WebKit-based browsers) */
+    text-stroke: 2px #000; /* Set the text stroke thickness and color (for non-WebKit browsers) */
+  }
+  
+  .avatar {
+    width: 100px; /* Set the width and height of the avatar */
+    height: 100px;
+    border-radius: 50%; /* Create a circular shape by setting border-radius to 50% */
+    overflow: hidden; /* Hide any content that overflows the circular shape */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow for a raised effect */
+  }
+  
+  .avatar img {
+    width: 100%; /* Ensure the image takes up the full avatar container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra space below the image */
+  }
+
+  .overlay-text {
+    position: absolute; /* Set the <p> element's position to absolute */
+    bottom: 0; /* Position it at the bottom of the container */
+    left: 50%; /* Position it at the horizontal center of the container */
+    transform: translateX(-50%); /* Center horizontally using transform */
+  }
+
+  .avatar2 {
+    width: 300px; /* Increase the width and height to make it larger */
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .avatar2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.video-container{
+    height: 100%;
+    width: 100%;
+    
+}
+.video-container video {
+    width: 100%; /* Set video width and height to 100% */
+    height: 100%;
+    
+}
+
+.list-group{
+    background-color: #1c1c1c ;
+    text-decoration-color: white;
+}
